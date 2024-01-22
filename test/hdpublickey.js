@@ -174,7 +174,7 @@ describe('HDPublicKey interface', function() {
       roundTrip.xpubkey.should.equal(xpubkey);
     });
 
-    it('should roundtrip to an equivalent object DIP14 256-bit', function() {
+    it('should roundtrip to an equivalent object HIP14 256-bit', function() {
       var pubKey = new HDPublicKey(xpubkey256bit);
       var toBuffer = pubKey.toBuffer();
       var fromBuffer = HDPublicKey.fromBuffer(toBuffer);
