@@ -1,0 +1,16 @@
+# ignore JetBrains IDE project specific files
+.idea
+.vscode
+
+# do not track dependencies
+node_modules
+
+# ignore generated code coverage output
+coverage
+.nyc_output/
+
+# ignore distribution files
+dist/
+
+# OS_X
+.DS_Store

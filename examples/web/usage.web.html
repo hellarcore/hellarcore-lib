@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <!--    <script src="https://unpkg.com/@hellarcore/hellarcore-lib"></script>-->
+    <script src="../../dist/hellarcore-lib.min.js"></script>
+    <script>
+      const { PrivateKey } = hellarcore;
+      const privateKey = new PrivateKey();
+      const address = privateKey.toAddress().toString();
+      alert(`New private key generated ${privateKey.toString()}`);
+    </script>
+  </head>
+  <body></body>
+</html>
