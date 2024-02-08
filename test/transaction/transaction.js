@@ -907,7 +907,7 @@ describe('Transaction', function () {
         transaction.addInput(new Transaction.Input());
       }).to.throw(errors.Transaction.NeedMoreInfo);
     });
-    it('fails if no satoshi amount is provided', function () {
+    it('fails if no hellar amount is provided', function () {
       var input = new Transaction.Input();
       expect(function () {
         transaction.addInput(input);

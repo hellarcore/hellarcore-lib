@@ -3,7 +3,7 @@
   [
     "It is evaluated as if there was a crediting coinbase transaction with two 0"
   ],
-  ["pushes as scriptSig, and one output of 0 satoshi and given scriptPubKey,"],
+  ["pushes as scriptSig, and one output of 0 hellar and given scriptPubKey,"],
   [
     "followed by a spending transaction which spends this output as only input (and"
   ],

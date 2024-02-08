@@ -6,7 +6,7 @@ We're working hard to make _hellarcore-lib_ the most powerful JavaScript library
 
 If there are any questions, etc., please feel to ask in one of the community channels:
 
-- https://www.hellar.io/forum (Support Forum)
+- https://discord.gg/4yfHvQFWRS (Support Forum)
 
 ## Quick Checklist
 

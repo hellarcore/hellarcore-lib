@@ -30,7 +30,7 @@ describe('Output', function () {
     }.should.throw(TypeError));
   });
 
-  it('can be assigned a satoshi amount in big number', function () {
+  it('can be assigned a hellar amount in big number', function () {
     var newOutput = new Output({
       hellars: new BN(100),
       script: Script.empty(),
@@ -38,7 +38,7 @@ describe('Output', function () {
     newOutput.hellars.should.equal(100);
   });
 
-  it('can be assigned a satoshi amount with a string', function () {
+  it('can be assigned a hellar amount with a string', function () {
     var newOutput = new Output({
       hellars: '100',
       script: Script.empty(),

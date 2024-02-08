@@ -2,7 +2,7 @@
   "name": "@hellarcore/hellarcore-lib",
   "version": "1.0.0",
   "description": "A pure and powerful JavaScript Hellar library.",
-  "author": "Hellar Core Inc., Inc. <dev@hellar.io>",
+  "author": "Hellar Core Inc. <dev@hellar.io>",
   "main": "index.js",
   "unpkg": "dist/hellarcore-lib.min.js",
   "scripts": {
